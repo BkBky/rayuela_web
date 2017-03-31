@@ -8,3 +8,7 @@ Para crear archivos de db/migrate
 $ rake generate:migration NAME=create_players
 $ rake generate:migration NAME=create_games
 $ rake generate:migration NAME=create_players_games
+
+
+creaciçon de objetos:
+http://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=826:constructores-javascript-crear-objetos-vacios-anadir-propiedades-y-metodos-singleton-ejemplos-cu01145e&catid=78:tutorial-basico-programador-web-javascript-desde-&Itemid=206
