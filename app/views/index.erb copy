@@ -19,18 +19,25 @@
     <table class="table">
       <tr id="Player1">
         <td id="player1"><strong>Jugador 1</strong></td>
-        <td class="active border" id="0">0</td>
-        <%99.times do |num|%>
+        <td class="active border" id="0"></td>
+        <%79.times do |num|%>
         <td id="<%=num+1%>"></td>
         <%end%>
-         <td id"100" class="ultimo">100</td>
+         <td id"80" class="end"></td>
+         <%20.times do |num|%>
+        <td id="<%=num+81%>"></td>
+        <%end%>
       </tr>
       <tr id="Player2">
-        <td id="player2"><strong>Jugador 1</strong></td>
-        <td class="active border" id="101">101</td>
-        <%99.times do |num|%>
+        <td id="player2"><strong>Jugador 2</strong></td>
+        <td class="active border" id="101"></td>
+        <%79.times do |num|%>
         <td id="<%=num+101%>"></td>
         <%end%>
-         <td id"200" class="ultimo">200</td>
+         <td id"180" class="end"></td>
+         <%20.times do |num|%>
+        <td id="<%=num+181%>"></td>
+        <%end%>
       </tr>
+
 </table>

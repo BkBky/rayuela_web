@@ -48,11 +48,17 @@ table{
   border: 1px solid black;
   
 }
+table tr{
+  border: 1px solid black;
+}
+table td:first{
+  border: 1px solid red;
+
+}
 .table td {
   background-color: white;
   height: 20px;
   width: 10px;
-
 }
 
 .table td.active {
@@ -81,5 +87,12 @@ table{
    display: block;
 }
 table td.end{
+  background-color: red;
+}
+.border{
+  border-left: 1px solid black;
+}
+
+#Player1 [id="80"], #Player2 [id="180"]{
   background-color: red;
 }

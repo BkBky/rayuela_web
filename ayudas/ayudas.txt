@@ -1,0 +1,10 @@
+bundle update
+Para crear archivos en carpeta model
+$ rake generate:model NAME=Player
+$ rake generate:model NAME=Game
+$ rake generate:model NAME=PlayerGame
+
+Para crear archivos de db/migrate
+$ rake generate:migration NAME=create_players
+$ rake generate:migration NAME=create_games
+$ rake generate:migration NAME=create_players_games
