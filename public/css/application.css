@@ -17,7 +17,7 @@ header {
   text-align: center;
 }
 
-button {
+button, .boton {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -93,6 +93,6 @@ table td.end{
   border-left: 1px solid black;
 }
 
-#Player1 [id="80"], #Player2 [id="180"]{
+#Player1 [id="80"], #Player2 [id="80"]{
   background-color: red;
 }
